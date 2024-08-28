@@ -21,6 +21,9 @@ export function calcTooltipPos(
   documentScrollTop: number,
   tooltipNode: HTMLElement,
 ) {
+  //
+  //
+
   let top: string | number = '-50%';
   let left: string | number = '0';
   let coordenadas = container.getBoundingClientRect();
